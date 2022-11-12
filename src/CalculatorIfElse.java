@@ -30,14 +30,14 @@ public class CalculatorIfElse {
         } else if (select == 4) {
             if (n2 != 0) {
                 System.out.println(" Division : " + (n1 / n2));
-            }else{
+            } else {
                 System.out.println(" Any number cannot divide by zero! ");
             }
 
-            }else {
-                    System.out.println(" Oops wrong choice! Try again. ");
-                }
-            }
+        } else {
+            System.out.println(" Oops wrong choice! Try again. ");
         }
+    }
+}
 
 
