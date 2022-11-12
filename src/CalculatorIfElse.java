@@ -3,24 +3,24 @@ import java.util.Scanner;
 public class CalculatorIfElse {
     public static void main(String[] args) {
 
-        // Declare double variables
+        // Declare integer variables
         int n1, n2, select;
 
         // Create a new object
         Scanner input = new Scanner(System.in);
 
-        // Prompt the user to input height
+        // Prompt the user to valuables
         System.out.print(" Enter first number : ");
         n1 = input.nextInt();
         System.out.print(" Enter second number : ");
         n2 = input.nextInt();
 
-        // Calculate body mass index
+        // Prompt the operations
         System.out.println(" 1 - Addition \n 2 - Subtraction \n 3 - Multiplication \n 4 - Division ");
         System.out.print(" Select : ");
         select = input.nextInt();
-        // Display the result
 
+        // Check the operations and display result
         if (select == 1) {
             System.out.println(" Addition : " + (n1 + n2));
         } else if (select == 2) {
